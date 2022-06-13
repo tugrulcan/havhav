@@ -3,6 +3,9 @@ name = "havhav"
 version = "0.1.0"
 description = ""
 authors = ["tugrulcansollu <tugrulcansollu@gmail.com>"]
+packages = [
+    { include = "havhav" },
+]
 
 [tool.poetry.dependencies]
 python = "^3.9"
