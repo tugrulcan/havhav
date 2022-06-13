@@ -13,32 +13,18 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - uses: actions/setup-python@v4
+      - name: Setup python environment
+        uses: actions/setup-python@v3
         with:
           python-version: ${{ matrix.python-version }}
+          cache: 'pip'
 
-      - name: Install pkg_resources
-        run: pip install setuptools
+      - name: Upgrade pip
+        run: |
+          pip install --upgrade pip
 
-      - name: Run image
-        uses: abatilo/actions-poetry@v2.1.4
+
+      - name: Run formatters
+        uses: pre-commit/action@v2.0.3
         with:
-          poetry-version: ${{ matrix.poetry-version }}
-
-      - name: Install dependencies
-        run: poetry install
-
-      - name: Run black
-        run: poetry run black . --check
-
-      - name: Run isort
-        run: poetry run isort . --check-only --profile black
-
-      - name: Run flake8
-        run: poetry run flake8 .
-
-      - name: Run bandit
-        run: poetry run bandit .
-
-      - name: Run safety
-        run: poetry run safety check
+          extra_args: --all-files
