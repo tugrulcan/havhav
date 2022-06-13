@@ -3,6 +3,7 @@
 [![CodeQL](https://github.com/tugrulcan/havhav/actions/workflows/codeql-analysis.yml/badge.svg?branch=main)](https://github.com/tugrulcan/havhav/actions/workflows/codeql-analysis.yml)
 <a href="https://github.com/psf/black"><img alt="Code style: black" src="https://img.shields.io/badge/code%20style-black-000000.svg"></a>
 [![Checked with mypy](http://www.mypy-lang.org/static/mypy_badge.svg)](http://mypy-lang.org/)
+[![Documentation Status](https://readthedocs.org/projects/havhav/badge/?version=latest)](https://havhav.readthedocs.io/en/latest/?badge=latest)
 
 
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Ftugrulcan%2Fhavhav.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Ftugrulcan%2Fhavhav?ref=badge_large)
