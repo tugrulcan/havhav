@@ -6,8 +6,9 @@
 Welcome to havhav's documentation!
 ==================================
 
-.. automodule:: havhav
-    :members:
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents:
 
 
 Indices and tables
