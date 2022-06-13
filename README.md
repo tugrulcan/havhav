@@ -7,5 +7,5 @@
 [![Tests](https://github.com/tugrulcan/havhav/actions/workflows/test.yaml/badge.svg)](https://github.com/tugrulcan/havhav/actions/workflows/test.yaml)
 [![Documentation Status](https://readthedocs.org/projects/havhav/badge/?version=latest)](https://havhav.readthedocs.io/en/latest/?badge=latest)
 [![Release](https://github.com/tugrulcan/havhav/actions/workflows/release.yaml/badge.svg)](https://github.com/tugrulcan/havhav/actions/workflows/release.yaml)
-
+[![PyPI version](https://badge.fury.io/py/havhav.svg)](https://badge.fury.io/py/havhav)
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Ftugrulcan%2Fhavhav.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Ftugrulcan%2Fhavhav?ref=badge_large)
