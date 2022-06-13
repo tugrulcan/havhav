@@ -49,8 +49,13 @@ class DogAPIHandler(BaseModel):
 
 def get_dog_facts(number_of_facts: int = 1) -> List[str]:
     """
+    Get dog facts from API
+
     Makes request to the Dog facts API and returns a list of facts.
-    :param number_of_facts:
-    :return: List of dog facts
+
+
+    :return: List of facts
+    :rtype: List[str]
+    :param number_of_facts: Number of facts to return
     """
     return DogAPIHandler().get_dog_facts(number_of_facts=number_of_facts)
