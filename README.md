@@ -6,7 +6,6 @@
 [![Code format checkers](https://github.com/tugrulcan/havhav/actions/workflows/code-quality.yaml/badge.svg)](https://github.com/tugrulcan/havhav/actions/workflows/code-quality.yaml)
 [![Tests](https://github.com/tugrulcan/havhav/actions/workflows/test.yaml/badge.svg)](https://github.com/tugrulcan/havhav/actions/workflows/test.yaml)
 [![Documentation Status](https://readthedocs.org/projects/havhav/badge/?version=latest)](https://havhav.readthedocs.io/en/latest/?badge=latest)
-[![security: bandit](https://img.shields.io/badge/security-bandit-yellow.svg)](https://github.com/PyCQA/bandit)
-
+[![Release](https://github.com/tugrulcan/havhav/actions/workflows/release.yaml/badge.svg)](https://github.com/tugrulcan/havhav/actions/workflows/release.yaml)
 
 [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Ftugrulcan%2Fhavhav.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Ftugrulcan%2Fhavhav?ref=badge_large)
