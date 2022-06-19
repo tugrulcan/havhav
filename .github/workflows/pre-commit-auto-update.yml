@@ -19,12 +19,12 @@ jobs:
           cache: 'pip'
 
       - uses: pre-commit/action@v3.0.0
-        with:
-          extra_args: autoupdate
+
+      - name: Update pre-commit hooks
+        run: |
+          pre-commit autoupdate
 
       - uses: pre-commit/action@v3.0.0
-        with:
-          extra_args: run --all-files
 
       - uses: peter-evans/create-pull-request@v4
         with:
