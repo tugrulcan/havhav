@@ -15,6 +15,7 @@ repos:
     rev: '1.7.4'
     hooks:
     - id: bandit
+      args: ["--exclude", "tests,docs,build,dist,venv"]
 
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: "v4.3.0"

@@ -18,7 +18,13 @@ jobs:
           python-version: "3.9"
           cache: 'pip'
 
-      - uses: browniebroke/pre-commit-autoupdate-action@main
+      - uses: pre-commit/action@v3.0.0
+        with:
+          extra_args: autoupdate
+
+      - uses: pre-commit/action@v3.0.0
+        with:
+          extra_args: run --all-files
 
       - uses: peter-evans/create-pull-request@v4
         with:
