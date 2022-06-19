@@ -37,7 +37,7 @@ Note the `pip` refers to the Python 3 package manager. In environment where Pyth
 If the installation instructions are very complex or only relevant to specific environments or use cases, consider creating a separate documentation and linking it here.
 
 ## Usage
-```python 
+```python
 from havhav import get_dog_facts
 
 print(get_dog_facts(number_of_facts=1))
