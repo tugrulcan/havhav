@@ -33,7 +33,7 @@ class DogAPIHandler(BaseModel):
         :return:
         """
         response = self.fetch_facts(number_of_facts=number_of_facts)
-        return [fact for fact in response.facts]
+        return list(response.facts)
 
     def fetch_facts(self, number_of_facts: int) -> DogAPIResponse:
         response = self.session.get(

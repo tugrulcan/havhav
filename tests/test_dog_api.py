@@ -8,8 +8,7 @@ from havhav.models import DogAPIResponse
 
 @pytest.fixture(scope="module", autouse=True)
 def handler() -> DogAPIHandler:
-    handler = DogAPIHandler()
-    return handler
+    return DogAPIHandler()
 
 
 def test_fetch_dog_fact(handler: DogAPIHandler) -> None:
