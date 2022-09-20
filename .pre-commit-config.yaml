@@ -1,3 +1,7 @@
+# See https://pre-commit.ci for more information
+ci:
+  skip: [poetry-lock]
+
 # See https://pre-commit.com for more information
 default_stages: [ commit, push ]
 default_language_version:
