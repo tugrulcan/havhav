@@ -2,14 +2,15 @@
 
 [![Checked with mypy](http://www.mypy-lang.org/static/mypy_badge.svg)](http://mypy-lang.org/)
 <a href="https://github.com/psf/black"><img alt="Code style: black" src="https://img.shields.io/badge/code%20style-black-000000.svg"></a>
-
-
 [![codecov](https://codecov.io/gh/tugrulcan/havhav/branch/main/graph/badge.svg?token=upaHgOeki5)](https://codecov.io/gh/tugrulcan/havhav)
+
+
 [![CodeQL](https://github.com/tugrulcan/havhav/actions/workflows/codeql-analysis.yml/badge.svg?branch=main)](https://github.com/tugrulcan/havhav/actions/workflows/codeql-analysis.yml)
 [![Code format checkers](https://github.com/tugrulcan/havhav/actions/workflows/code-quality.yaml/badge.svg)](https://github.com/tugrulcan/havhav/actions/workflows/code-quality.yaml)
 [![Tests](https://github.com/tugrulcan/havhav/actions/workflows/test.yaml/badge.svg)](https://github.com/tugrulcan/havhav/actions/workflows/test.yaml)
 [![Documentation Status](https://readthedocs.org/projects/havhav/badge/?version=latest)](https://havhav.readthedocs.io/en/latest/?badge=latest)
 [![Release](https://github.com/tugrulcan/havhav/actions/workflows/release.yaml/badge.svg)](https://github.com/tugrulcan/havhav/actions/workflows/release.yaml)
+[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/tugrulcan/havhav/main.svg)](https://results.pre-commit.ci/latest/github/tugrulcan/havhav/main)
 
 
 [![PyPI version](https://badge.fury.io/py/havhav.svg)](https://badge.fury.io/py/havhav)
