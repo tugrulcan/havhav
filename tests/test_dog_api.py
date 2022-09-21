@@ -2,7 +2,7 @@ from typing import List
 
 import pytest
 
-from havhav.handler import DogAPIHandler
+from havhav.handler import DogAPIHandler, get_dog_facts as gdf
 from havhav.models import DogAPIResponse
 
 
@@ -36,3 +36,10 @@ def test_get_dog_fact(handler: DogAPIHandler) -> None:
     assert len(facts) == count
     assert facts[0] is not None
     assert facts[0] != ""
+
+
+@pytest.mark.parametrize("count", list(range(1, 4)))
+def test_get_dog_facts(count: int) -> None:
+    facts = gdf(count)
+    assert len(facts) == count
+    assert all(facts)
