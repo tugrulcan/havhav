@@ -22,6 +22,9 @@ bandit = "^1.7.4"
 safety = "^1.10.3"
 setuptools = "^62.4.0"
 
+[tool.poetry.scripts]
+havhav = "havhav.main:main"
+
 [build-system]
 requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
