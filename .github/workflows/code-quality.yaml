@@ -21,7 +21,7 @@ jobs:
         run: pip install setuptools
 
       - name: Run image
-        uses: abatilo/actions-poetry@v2.1.6
+        uses: abatilo/actions-poetry@v2.2.0
         with:
           poetry-version: ${{ matrix.poetry-version }}
 
