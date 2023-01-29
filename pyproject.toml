@@ -14,13 +14,14 @@ requests-toolbelt = "^0.10"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^7.1.2"
-pytest-cov = "^4.0.0"
+pytest-cov = "^3.0.0"
 black = "^22.3.0"
 isort = "^5.10.1"
 flake8 = "^6.0"
 bandit = "^1.7.4"
 safety = "^2.3.1"
 setuptools = "^67.0"
+coverage = "^6.0.2"
 
 [tool.poetry.scripts]
 havhav = "havhav.main:main"
